@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8FB17F2C2749E900FD2E87 /* SchwabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB17E2C2749E900FD2E87 /* SchwabApp.swift */; };
+		CE8FB1812C2749E900FD2E87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1802C2749E900FD2E87 /* ContentView.swift */; };
+		CE8FB1832C2749EB00FD2E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8FB1822C2749EB00FD2E87 /* Assets.xcassets */; };
+		CE8FB1862C2749EB00FD2E87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8FB1852C2749EB00FD2E87 /* Preview Assets.xcassets */; };
+		CE8FB18E2C274B5700FD2E87 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB18D2C274B5700FD2E87 /* HeaderView.swift */; };
+		CE8FB1912C274D3900FD2E87 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1902C274D3900FD2E87 /* MainView.swift */; };
+		CE8FB1932C274D6E00FD2E87 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1922C274D6E00FD2E87 /* AccountsView.swift */; };
+		CE8FB1952C274D7800FD2E87 /* WatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1942C274D7800FD2E87 /* WatchListView.swift */; };
+		CE8FB1972C274D8200FD2E87 /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1962C274D8200FD2E87 /* TradeView.swift */; };
+		CE8FB1992C274D9400FD2E87 /* MarketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1982C274D9400FD2E87 /* MarketsView.swift */; };
+		CE8FB19B2C274D9B00FD2E87 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB19A2C274D9B00FD2E87 /* MoreView.swift */; };
+		CE8FB19D2C27587500FD2E87 /* TotalValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB19C2C27587500FD2E87 /* TotalValueView.swift */; };
+		CE8FB19F2C275C6A00FD2E87 /* InvestmentIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB19E2C275C6A00FD2E87 /* InvestmentIncomeView.swift */; };
+		CE8FB1A12C275EE600FD2E87 /* DataGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1A02C275EE600FD2E87 /* DataGraph.swift */; };
+		CE8FB1A32C275F0F00FD2E87 /* InvestmentGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1A22C275F0F00FD2E87 /* InvestmentGraph.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE8FB17B2C2749E900FD2E87 /* Schwab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schwab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8FB17E2C2749E900FD2E87 /* SchwabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchwabApp.swift; sourceTree = "<group>"; };
+		CE8FB1802C2749E900FD2E87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE8FB1822C2749EB00FD2E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8FB1852C2749EB00FD2E87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8FB18D2C274B5700FD2E87 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CE8FB1902C274D3900FD2E87 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CE8FB1922C274D6E00FD2E87 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		CE8FB1942C274D7800FD2E87 /* WatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListView.swift; sourceTree = "<group>"; };
+		CE8FB1962C274D8200FD2E87 /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
+		CE8FB1982C274D9400FD2E87 /* MarketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsView.swift; sourceTree = "<group>"; };
+		CE8FB19A2C274D9B00FD2E87 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		CE8FB19C2C27587500FD2E87 /* TotalValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalValueView.swift; sourceTree = "<group>"; };
+		CE8FB19E2C275C6A00FD2E87 /* InvestmentIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentIncomeView.swift; sourceTree = "<group>"; };
+		CE8FB1A02C275EE600FD2E87 /* DataGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGraph.swift; sourceTree = "<group>"; };
+		CE8FB1A22C275F0F00FD2E87 /* InvestmentGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentGraph.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8FB1782C2749E900FD2E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8FB1722C2749E900FD2E87 = {
+			isa = PBXGroup;
+			children = (
+				CE8FB17D2C2749E900FD2E87 /* Schwab */,
+				CE8FB17C2C2749E900FD2E87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8FB17C2C2749E900FD2E87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8FB17B2C2749E900FD2E87 /* Schwab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8FB17D2C2749E900FD2E87 /* Schwab */ = {
+			isa = PBXGroup;
+			children = (
+				CE8FB18F2C274D3200FD2E87 /* App */,
+				CE8FB18C2C274B3500FD2E87 /* View */,
+				CE8FB17E2C2749E900FD2E87 /* SchwabApp.swift */,
+				CE8FB1822C2749EB00FD2E87 /* Assets.xcassets */,
+				CE8FB1842C2749EB00FD2E87 /* Preview Content */,
+			);
+			path = Schwab;
+			sourceTree = "<group>";
+		};
+		CE8FB1842C2749EB00FD2E87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE8FB1852C2749EB00FD2E87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE8FB18C2C274B3500FD2E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE8FB1802C2749E900FD2E87 /* ContentView.swift */,
+				CE8FB18D2C274B5700FD2E87 /* HeaderView.swift */,
+				CE8FB1922C274D6E00FD2E87 /* AccountsView.swift */,
+				CE8FB1942C274D7800FD2E87 /* WatchListView.swift */,
+				CE8FB1962C274D8200FD2E87 /* TradeView.swift */,
+				CE8FB1982C274D9400FD2E87 /* MarketsView.swift */,
+				CE8FB19A2C274D9B00FD2E87 /* MoreView.swift */,
+				CE8FB19C2C27587500FD2E87 /* TotalValueView.swift */,
+				CE8FB19E2C275C6A00FD2E87 /* InvestmentIncomeView.swift */,
+				CE8FB1A02C275EE600FD2E87 /* DataGraph.swift */,
+				CE8FB1A22C275F0F00FD2E87 /* InvestmentGraph.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE8FB18F2C274D3200FD2E87 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE8FB1902C274D3900FD2E87 /* MainView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8FB17A2C2749E900FD2E87 /* Schwab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8FB1892C2749EB00FD2E87 /* Build configuration list for PBXNativeTarget "Schwab" */;
+			buildPhases = (
+				CE8FB1772C2749E900FD2E87 /* Sources */,
+				CE8FB1782C2749E900FD2E87 /* Frameworks */,
+				CE8FB1792C2749E900FD2E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schwab;
+			productName = Schwab;
+			productReference = CE8FB17B2C2749E900FD2E87 /* Schwab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8FB1732C2749E900FD2E87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CE8FB17A2C2749E900FD2E87 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CE8FB1762C2749E900FD2E87 /* Build configuration list for PBXProject "Schwab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8FB1722C2749E900FD2E87;
+			productRefGroup = CE8FB17C2C2749E900FD2E87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8FB17A2C2749E900FD2E87 /* Schwab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8FB1792C2749E900FD2E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8FB1862C2749EB00FD2E87 /* Preview Assets.xcassets in Resources */,
+				CE8FB1832C2749EB00FD2E87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8FB1772C2749E900FD2E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8FB1932C274D6E00FD2E87 /* AccountsView.swift in Sources */,
+				CE8FB19B2C274D9B00FD2E87 /* MoreView.swift in Sources */,
+				CE8FB1972C274D8200FD2E87 /* TradeView.swift in Sources */,
+				CE8FB1A32C275F0F00FD2E87 /* InvestmentGraph.swift in Sources */,
+				CE8FB19D2C27587500FD2E87 /* TotalValueView.swift in Sources */,
+				CE8FB1812C2749E900FD2E87 /* ContentView.swift in Sources */,
+				CE8FB1912C274D3900FD2E87 /* MainView.swift in Sources */,
+				CE8FB19F2C275C6A00FD2E87 /* InvestmentIncomeView.swift in Sources */,
+				CE8FB18E2C274B5700FD2E87 /* HeaderView.swift in Sources */,
+				CE8FB1952C274D7800FD2E87 /* WatchListView.swift in Sources */,
+				CE8FB1992C274D9400FD2E87 /* MarketsView.swift in Sources */,
+				CE8FB1A12C275EE600FD2E87 /* DataGraph.swift in Sources */,
+				CE8FB17F2C2749E900FD2E87 /* SchwabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE8FB1872C2749EB00FD2E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8FB1882C2749EB00FD2E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8FB18A2C2749EB00FD2E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Schwab/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RFBW7F5HY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadev.Schwab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8FB18B2C2749EB00FD2E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Schwab/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RFBW7F5HY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sadev.Schwab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8FB1762C2749E900FD2E87 /* Build configuration list for PBXProject "Schwab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8FB1872C2749EB00FD2E87 /* Debug */,
+				CE8FB1882C2749EB00FD2E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8FB1892C2749EB00FD2E87 /* Build configuration list for PBXNativeTarget "Schwab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8FB18A2C2749EB00FD2E87 /* Debug */,
+				CE8FB18B2C2749EB00FD2E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8FB1732C2749E900FD2E87 /* Project object */;
+}
