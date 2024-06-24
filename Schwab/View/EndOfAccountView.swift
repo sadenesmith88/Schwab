@@ -9,7 +9,12 @@ import SwiftUI
 
 struct EndOfAccountView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      List {
+
+          Text("\(Image(systemName: "plus")) Add a Non-Schwab Account")
+         
+          Text("\(Image(systemName: "gear")) Summary Settings")
+        }
     }
 }
 

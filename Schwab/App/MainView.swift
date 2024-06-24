@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct MainView: View {
-    var body: some View {
-
-      TabView {
-        AccountsView()
+  var body: some View {
+    TabView {
+      AccountsView()
+        
         .tabItem {
           Image(systemName: "chart.bar.xaxis")
           Text("Accounts")
         }
-
-     WatchListView()
+      
+      WatchListView()
         .tabItem {
           Image(systemName: "text.badge.star")
           Text("Watchlist")
@@ -34,15 +34,14 @@ struct MainView: View {
           Image(systemName: "globe.desk.fill")
           Text("Markets")
         }
-        MoreView()
-          .tabItem {
-            Image(systemName: "ellipsis")
-            Text("More")
-          }
-    } //: TAB
-
-      }
+      MoreView()
+        .tabItem {
+          Image(systemName: "ellipsis")
+          Text("More")
+        }
     }
+  }
+}
 
 
 #Preview {

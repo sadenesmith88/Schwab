@@ -9,7 +9,12 @@ import SwiftUI
 
 struct MessageTitleView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+        Text("Message Highlights")
+          .fontWeight(.bold)
+          .font(.system(size: 25))
+          .multilineTextAlignment(.leading)
+          .frame(height: 50)
     }
 }
 

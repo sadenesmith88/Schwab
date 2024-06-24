@@ -22,6 +22,12 @@
 		CE8FB19F2C275C6A00FD2E87 /* InvestmentIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB19E2C275C6A00FD2E87 /* InvestmentIncomeView.swift */; };
 		CE8FB1A12C275EE600FD2E87 /* DataGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1A02C275EE600FD2E87 /* DataGraph.swift */; };
 		CE8FB1A32C275F0F00FD2E87 /* InvestmentGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1A22C275F0F00FD2E87 /* InvestmentGraph.swift */; };
+		CE8FB1A52C2786DB00FD2E87 /* QuickActionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1A42C2786DB00FD2E87 /* QuickActionViews.swift */; };
+		CE8FB1A72C278E9900FD2E87 /* InvestmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1A62C278E9900FD2E87 /* InvestmentView.swift */; };
+		CE8FB1A92C278FBD00FD2E87 /* InvestmentTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1A82C278FBD00FD2E87 /* InvestmentTitleView.swift */; };
+		CE8FB1AB2C27914900FD2E87 /* MessageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1AA2C27914900FD2E87 /* MessageTitleView.swift */; };
+		CE8FB1AD2C279D6800FD2E87 /* EndOfAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1AC2C279D6800FD2E87 /* EndOfAccountView.swift */; };
+		CE8FB1AF2C27A9CF00FD2E87 /* DisplayInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB1AE2C27A9CF00FD2E87 /* DisplayInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +47,12 @@
 		CE8FB19E2C275C6A00FD2E87 /* InvestmentIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentIncomeView.swift; sourceTree = "<group>"; };
 		CE8FB1A02C275EE600FD2E87 /* DataGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGraph.swift; sourceTree = "<group>"; };
 		CE8FB1A22C275F0F00FD2E87 /* InvestmentGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentGraph.swift; sourceTree = "<group>"; };
+		CE8FB1A42C2786DB00FD2E87 /* QuickActionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionViews.swift; sourceTree = "<group>"; };
+		CE8FB1A62C278E9900FD2E87 /* InvestmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentView.swift; sourceTree = "<group>"; };
+		CE8FB1A82C278FBD00FD2E87 /* InvestmentTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentTitleView.swift; sourceTree = "<group>"; };
+		CE8FB1AA2C27914900FD2E87 /* MessageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTitleView.swift; sourceTree = "<group>"; };
+		CE8FB1AC2C279D6800FD2E87 /* EndOfAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndOfAccountView.swift; sourceTree = "<group>"; };
+		CE8FB1AE2C27A9CF00FD2E87 /* DisplayInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,15 +107,16 @@
 			children = (
 				CE8FB1802C2749E900FD2E87 /* ContentView.swift */,
 				CE8FB18D2C274B5700FD2E87 /* HeaderView.swift */,
-				CE8FB1922C274D6E00FD2E87 /* AccountsView.swift */,
-				CE8FB1942C274D7800FD2E87 /* WatchListView.swift */,
-				CE8FB1962C274D8200FD2E87 /* TradeView.swift */,
-				CE8FB1982C274D9400FD2E87 /* MarketsView.swift */,
-				CE8FB19A2C274D9B00FD2E87 /* MoreView.swift */,
 				CE8FB19C2C27587500FD2E87 /* TotalValueView.swift */,
 				CE8FB19E2C275C6A00FD2E87 /* InvestmentIncomeView.swift */,
 				CE8FB1A02C275EE600FD2E87 /* DataGraph.swift */,
 				CE8FB1A22C275F0F00FD2E87 /* InvestmentGraph.swift */,
+				CE8FB1A42C2786DB00FD2E87 /* QuickActionViews.swift */,
+				CE8FB1A62C278E9900FD2E87 /* InvestmentView.swift */,
+				CE8FB1A82C278FBD00FD2E87 /* InvestmentTitleView.swift */,
+				CE8FB1AA2C27914900FD2E87 /* MessageTitleView.swift */,
+				CE8FB1AC2C279D6800FD2E87 /* EndOfAccountView.swift */,
+				CE8FB1AE2C27A9CF00FD2E87 /* DisplayInfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,6 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				CE8FB1902C274D3900FD2E87 /* MainView.swift */,
+				CE8FB1922C274D6E00FD2E87 /* AccountsView.swift */,
+				CE8FB1942C274D7800FD2E87 /* WatchListView.swift */,
+				CE8FB1962C274D8200FD2E87 /* TradeView.swift */,
+				CE8FB1982C274D9400FD2E87 /* MarketsView.swift */,
+				CE8FB19A2C274D9B00FD2E87 /* MoreView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -186,19 +204,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8FB1AF2C27A9CF00FD2E87 /* DisplayInfoView.swift in Sources */,
 				CE8FB1932C274D6E00FD2E87 /* AccountsView.swift in Sources */,
+				CE8FB1A72C278E9900FD2E87 /* InvestmentView.swift in Sources */,
 				CE8FB19B2C274D9B00FD2E87 /* MoreView.swift in Sources */,
 				CE8FB1972C274D8200FD2E87 /* TradeView.swift in Sources */,
 				CE8FB1A32C275F0F00FD2E87 /* InvestmentGraph.swift in Sources */,
 				CE8FB19D2C27587500FD2E87 /* TotalValueView.swift in Sources */,
 				CE8FB1812C2749E900FD2E87 /* ContentView.swift in Sources */,
+				CE8FB1A92C278FBD00FD2E87 /* InvestmentTitleView.swift in Sources */,
 				CE8FB1912C274D3900FD2E87 /* MainView.swift in Sources */,
 				CE8FB19F2C275C6A00FD2E87 /* InvestmentIncomeView.swift in Sources */,
+				CE8FB1A52C2786DB00FD2E87 /* QuickActionViews.swift in Sources */,
 				CE8FB18E2C274B5700FD2E87 /* HeaderView.swift in Sources */,
 				CE8FB1952C274D7800FD2E87 /* WatchListView.swift in Sources */,
+				CE8FB1AD2C279D6800FD2E87 /* EndOfAccountView.swift in Sources */,
 				CE8FB1992C274D9400FD2E87 /* MarketsView.swift in Sources */,
 				CE8FB1A12C275EE600FD2E87 /* DataGraph.swift in Sources */,
 				CE8FB17F2C2749E900FD2E87 /* SchwabApp.swift in Sources */,
+				CE8FB1AB2C27914900FD2E87 /* MessageTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

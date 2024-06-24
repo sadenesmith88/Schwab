@@ -23,7 +23,8 @@ struct InvestmentGraph: View {
 
   var body: some View {
 
-
+    VStack {
+      InvestmentIncomeView()
       Chart {
 
         ForEach(data) { d in
@@ -31,16 +32,18 @@ struct InvestmentGraph: View {
         }
 
       }
+      .frame(height: 250)
 
 
 
-      .chartXAxis {
-          AxisMarks(position: .bottom) { _ in
-              AxisValueLabel()
-          }
+        .chartXAxis {
+            AxisMarks(position: .bottom) { _ in
+                AxisValueLabel()
+            }
 
 
       }
+    }
 
 
 

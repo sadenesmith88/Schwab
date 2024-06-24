@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TotalValueView: View {
   var body: some View {
-    VStack {
+    VStack(alignment: .leading) {
       Text("Total Value \(Image(systemName: "info.circle.fill"))")
         .font(.system(size: 18))
         .foregroundColor(Color.gray)
@@ -26,9 +26,11 @@ struct TotalValueView: View {
         .fontWeight(.light)
 
       }
+    .background(Color.black)
     .frame(width: .infinity, height: 100)
-    .padding(.bottom, -110)
-    .padding(.trailing, 140)
+//    .padding(.bottom, -110)
+    .padding(.trailing, 190)
+    .padding(.bottom, 100)
 
 
 
